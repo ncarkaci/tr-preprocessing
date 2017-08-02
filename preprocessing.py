@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 #
-# Türkçe dökümanlar için çalışma öncesi dökümanı işlenecek hale getirir. Döküman listesinin birleştirilmesi, noktalama işaretlerinin kaldırılması,
-#   istenmeyen karakterlerin dökümandan silinmesi, Türkçe de kullanılan şapkalı karakterlerin karlığı ile değiştirilmesi, stopwordlerin ve stemwordlerin
-#   filtrelenmesi gibi işlemleri gerçekleştirir. Hazırlanan kütüphane özellikle Türkçe dildeki dökümanlara yönelik hazırlanmıştır. Dile yönelik problemlerin
-#   çözülmesi hedeflenmiştir.
+# Türkçe dökümanlar için çalışma öncesi dökümanı işlenecek hale getirir.
+#   Döküman listesinin birleştirilmesi, noktalama işaretlerinin kaldırılması,istenmeyen karakterlerin dökümandan silinmesi,
+#   Türkçe de kullanılan şapkalı karakterlerin karlığı ile değiştirilmesi, stopwordlerin ve stemwordlerin filtrelenmesi
+#   gibi işlemleri gerçekleştirir. Hazırlanan kütüphane özellikle Türkçe dildeki dökümanlara yönelik hazırlanmıştır.
+#   Özellikle Türkçe dökümanların ön işlem süreçlerindeki problemlerin çözülmesi hedeflenmiştir.
 #
 # Author: Necmettin Çarkacı
 #
@@ -18,7 +19,7 @@ import sys # To get parameter from command line
 
 
 '''
-    Verilen klasör içindeki dosyaları ardı ardına birleştirerek tek bir dosya haline getiriyor. 
+    Verilen klasör içindeki dosyaları ardı ardına birleştirerek tek bir dosya haline getirir. 
     
     @param  string dirname  : Klasör adı
     @param  string ext      : Klasör içinde birleştirilmesi istenen dosyaların uzantısı örn: .txt
@@ -38,7 +39,7 @@ def mergeFiles(dirname, ext='.txt'):
 
 
 '''
-    Verieln text içinde kullanılan karakteri verir.
+    Verilen text içinde kullanılan karakter listesi geri döndürür.
     
     @param  string text : Döküman içeriği
     @return list        : Karakter listesi 
@@ -68,7 +69,7 @@ def removePunction(text):
 
 
 '''
-    Döküman içerisinde kararkterleri verilen değerler ile değiştirir. ÖZellikle Türkçe de bulunan şapkalı karakterler için kullanılmıştır.
+    Döküman içerisinde şapkalı kararkterleri eşleniği ile değiştirir. 
     
     @param  string  text        : Döküman içeriği
     @param  dict    char_dict   : Değişim yapılacak anahtar ve değer sözlüğü
@@ -88,9 +89,9 @@ def replaceChars(text):
     return text
 
 '''
-    Dökümandaki tüm büyük harfleri küçük harf dönüştürüyor. Python lower fonksiyonu I harfini
-    i'ye dönüştürdüğü için bu işlem regex'le yapıldı. Diğer dönüşümler için python lower 
-    fonksiyonukullanıldı.
+    Dökümandaki tüm büyük harfleri küçük harf dönüştürür. Python lower() fonksiyonu I harfini
+    i'ye dönüştürdüğü için bu işlem regex'le yapıldı. Diğer dönüşümler için python'un varsayılan 
+    lower() fonksiyonu kullanıldı.
     
     @param string text  : Döküman içeriği
     @return             : Tüm karakterleri küçük harfe dönüştürülmüş döküman içeriği
@@ -135,7 +136,8 @@ def removeUndesiredCharsFromText(text,remove_digits, remove_space, remove_newlin
 
 
 '''
-    Döküman içindeki tekil karakter ve toplam, karakter sayısı ile kelime sayısını hesaplar
+    Döküman içindeki kelime ve karakterlere ait istatistiki bilgileri hesaplar.
+    Hesaplanan veriler tekil ve toplam, karakter sayısı ile toplam ve tekil kelime sayısıdır.
 
     @param  string text : Döküman içeriği
     @return int         : Dökümandaki toplam karakter sayısı
@@ -160,7 +162,7 @@ def getStatistics(text):
 
 
 '''
-    Dökümanı alır ve döküman içindeki kelimeler için kelime ve kelimeye ait terim frekans değerinden oluşan sözlük oluşturur.
+    Döküman içindeki kelimeler için kelime ve kelimeye ait terim frekans değerinden oluşan sözlük oluşturur.
     
     @param  string text : Döküman içeriği
     @return dict        : Kelime ve kelimeye ait terim frekans değeri içeren sözlük
@@ -263,7 +265,8 @@ def filterStopwordsForFrequency(stopwordList, text, percentage=10):
 
 
 '''
-    Verilen text içinde eğer stopwordsler en çok kullanılan ilk 10000 karakter içindeyse kaldırır.
+    Verilen text içinde eğer stopwordsler en sık karakterlerin yer aldığı belirtilen yüzdelik dilimdeyse
+    döküman içinden silinir.
     
     @param  string  text            : Döküman içeriği
     @param  string  text            : Stopwords dosya adı. Eğer boş bırakılırsa Türkçe için varsayılan stopwords dosyası kullanılacaktır.
@@ -306,7 +309,7 @@ def wordsToStems(text):
     return text
 
 '''
-    Boşlukşarı ve yeni satırları kaldırarak dökümanı tek bir satıra dönüştürür.
+    Boşlukları ve yeni satırları kaldırarak dökümanı tek bir satıra dönüştürür.
     
     @param string text  : Döküman içeriği
     @return             : Tek satır halinde döküman içeriği
