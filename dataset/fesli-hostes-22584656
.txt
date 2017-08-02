@@ -1,0 +1,52 @@
+Yekûnu zamaniyye la havle fuzuliyye
+(Rötar)
+Akıbet’ül rezil-i rüsva
+(Uçuş iptali)
+İade-i ziyaret’ül istikbaliyye
+(Gidiş dönüş bileti)
+Hicret’ül ecnebbiyye
+(Dış hatlar)
+Ne şeker-i şam ne sima-i arabiyye
+(İç hatlar)
+Seyr’ül minare-i hareketiyye
+(Kule)
+Adem’ül şecere-i malumatiyye
+(Check-in)
+Malumatiyye-i kablel vuku
+(Online check-in)
+Fıskiye’tül sebil-i tulumba
+(WC)
+Yallah’ül seferriyye
+(Salona gidiniz)
+Mahşer-i velvele
+(Bu sizin için son çağrıdır)
+Müfrezeyyi def’i şerriye
+(Güvenlik kontrolü)
+Bişereffiye’tül sarih
+(Business class)
+İstif’i balık-i umumiyye
+(Ekonomi sınıfı)
+Satih’ül rüzigâr
+(Pencere yanı)
+Asakir-i merkezziyye
+(Koridor)
+Se yek
+(Üçlü koltuğun ortası)
+Divan’ül tekkeyi hümayun
+(Kokpit)
+Şahane-i afet’ül maşallah
+(Hostes)
+Ferman-ı kayış’ül vesvese
+(Kemerlerinizi bağlayınız)
+Harekat’ül silsile-i fevkalbeşer
+(Take off)
+Ulema-i şehr’ül tayyare
+(Pilot)
+Kukla’tül hâkimiyyet-i kabiliyye
+(Otomatik pilot)
+Def-i felaketiyye
+(Türbülans)
+Dalaletiyye’tül gaflet-i kusurriye
+(Zorunlu iniş)
+Kürre-i cemaatiyye
+(Globally yours)

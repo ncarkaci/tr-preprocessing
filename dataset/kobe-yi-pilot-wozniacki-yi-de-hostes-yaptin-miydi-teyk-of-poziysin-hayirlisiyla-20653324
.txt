@@ -1,0 +1,39 @@
+Absord axial loads�
+Roller bearings...
+Absord radial loads
+2 sumps
+Fan frame and...
+Turbine rear frame
+1 fan stage
+3 or 4 booster stages
+High pressure compressor
+9 rotor stages
+4 variable stages
+5 fixed stator stages
+High pressure turbine
+Single-stage turbine nozzle
+Single-stage turbine rotor
+Single annular combustor
+Dual annular combustor
+Low pressure turbine
+3 gearbox arrangements
+24 fan blades, 61 inch
+38 fan blades, 60 inch
+6 stage booster
+Hydromechanical unit
+Main engine control
+WF, VBV, VSV, HPTCCV
+Aynı zamanda PMC filan...
+Power management control
+Electronic unit yani.
+*
+Hani şu, insan gibi çalışıp, insan gibi maaş isteyen Türk Hava Yolları personeli, haklarını alabilmek için iş yavaşlatma eylemi yapıyor ve “teknik ekip” de eyleme destek veriyor ya...
+*
+İşte o “teknik ekip”in baktığı motorlardan birinin “teknik” özellikleri bu... CFM56’nın.
+*
+Gerçi, oto sanayi’de tamponu kaldırtıp, çift egzost taksak daha şık durur ama... Kabaca 900 küsur sayfa. Detaya girersen, 10 bin sayfayı buluyor. Tadımlık verdim. Kullanım kılavuzunun Türkçesi yok.
+*
+E diyebilirsiniz ki...
+Nasıl anlıycaz?
+*
+E “defolup gitsinler, onlar olmadan da uçarız biz” diyen arkadaşlara sorun birader... Anlatsınlar.

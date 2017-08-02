@@ -1,0 +1,83 @@
+*
+
+1, 1, 2, 3, 5, 8, 13, 21, 34...
+
+Fibonacci serisidir bu.
+
+*
+
+Eğitimsiz bir göz bakarsa, peş peşe sıralanmış, alakasız sayılar gibi durur.
+
+Halbuki...
+
+Her sayı, kendinden önceki iki sayının toplamıdır. Aslında "düzen" oturmuştur, tıkır tıkır işler ama, sıradan göz göremez.
+
+*
+
+Matematik zannedersin...
+
+Hayatın ta kendisidir.
+
+Her olayın, kendinden önceki olaylarla bağlantısı olduğunu anlatır bize... İki adım öncesini görürsek, bir sonraki adımın ne olacağını da kabak gibi görebiliriz.
+
+Yani...
+
+Ötesinin ne olacağını merak etmek yerine, berisine bakmak yeterlidir.
+
+*
+
+Çankaya, 21... YÖK, 34’tür.
+
+*
+
+55, üniversitede türban.
+
+89, lisede türban.
+
+144, ilkokulda türban.
+
+*
+
+Fibonacci serisinin son halkası olan yeni YÖK Başkanı’nın "serbest bırakırsak artmaz, tam aksine, azalır" lafı...
+
+"Bilimsel olarak" yanlıştır.
+
+*
+
+Ve, tek yanlış değildir...
+
+*
+
+Bu, 5’inci YÖK Başkanı.
+
+1’inci, Ankara Üniversitesi ve Hacettepe Üniversitesi rektörüydü.
+
+2’nci, 19 Mayıs Üniversitesi.
+
+3’üncü, Karadeniz Teknik.
+
+4’üncü, Galatasaray rektörüydü.
+
+Ya 5’inci?
+
+Rektör değil.
+
+Dekan bile değil.
+
+*
+
+Herhangi bir fakülteyi ya da üniversiteyi yönetmemiş biri, hepsini birden yönetecek.
+
+*
+
+Albayın, tuğ, tüm, kor ve or’u atlayıp, direkt genelkurmay başkanı olmasıdır.
+
+Muhabirin, editör, yazı müdürü olmadan, genel yayın yönetmeye kalkmasıdır.
+
+Vali olmamış kaymakamın, İçişleri Bakanlığı koltuğuna kurulmasıdır.
+
+*
+
+Yönetemez.
+
+Yönetemeyeceğini göreceğiz.
