@@ -106,6 +106,22 @@ def toLowercase(text):
 
 
 '''
+    Dökümanda bulunan yeni satırları kaldırır. Dökümanda yeni satırlar silindiğinde alt satırdaki kelimeler, 
+    üst satırdaki kelimelerle birleştiği için. Yeni satır silinmesi işlemi; yeni satırların önce çift boşluğa
+    dönüştürülüp, daha sonra çift boşlukşların tek boşluğa dönüştürülmesiyle yapılır.
+
+    @param string text  : Döküman içeriği
+    @return             : Dökümanda bulunun yeni satırların kaldırılmış hali
+'''
+def removeNewLine(text):
+    import re
+    text = re.sub(r"\n", "  ", text)
+    text = re.sub(r"  ", " ", text)
+
+    return text
+
+
+'''
     Döküman içinden alfabede olmayan karakterleri siler.
     
     @param  string  alfabe          : Silinmeden kalması istenen karakter listesi
